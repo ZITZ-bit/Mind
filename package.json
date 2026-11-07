@@ -1,0 +1,17 @@
+{
+  "name": "mind",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma web de productividad y organizacion personal y colaborativa (Django + React + Tailwind)",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:backend": "cd backend && .venv/bin/python manage.py runserver",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "workspaces": ["backend", "frontend"],
+  "devDependencies": {
+    "turbo": "^2.4.0"
+  }
+}
