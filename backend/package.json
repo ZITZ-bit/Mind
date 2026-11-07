@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "description": "Backend Django de Mind",
   "scripts": {
-    "dev": ".venv/bin/python manage.py runserver"
+    "dev": ".venv/bin/python manage.py runserver 8001"
   }
 }
