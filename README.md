@@ -84,7 +84,7 @@ npm run build
 npm run lint
 ```
 
-- **Backend**: Django en `http://localhost:8000`
+- **Backend**: Django en `http://localhost:8001`
 - **Frontend**: Vite en `http://localhost:5173`
 
 ## Requisitos previos
